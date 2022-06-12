@@ -11,7 +11,7 @@ let box = document.querySelector(".container .box");
 // 	</div>
 // `;
 
-fetch("/file.json")
+fetch("file.json")
 	.then((result) => {
 		return result.json();
 	})
